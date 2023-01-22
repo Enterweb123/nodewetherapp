@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> weather report</title>
+    <link rel="stylesheet" href="/style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1><%= Name %> weather is currently <%= weather_description %></h1>
+        <p> The Temperature <%= Temp %>  F </p>
+        <p> The Min Temperature <%= Temp_min %> F</p>
+        <p> The Max Temperature <%= Temp_max %> F </h4>
+        <p> The Wind Speed <%= Wind_speed %></h4>
+        <p> Humidity <%= Humidity %> %</p>
+        <img src="<%= imgurl %>" alt="img">
+        <br>
+        <br>
+        <a href="/">back</a>
+    </div>
+</body>
+</html>
